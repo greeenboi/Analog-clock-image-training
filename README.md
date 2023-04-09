@@ -24,3 +24,11 @@ The dataset is divided into train, test and valid subsets. Trained models from t
 The minute hand in the images always lay directly on one of the 12 minute locations, ie 0 5, 10, etc. The hour hands are adjusted away from the exact hour by the value of the minute hand. For example the hour hand for say time 1:30 is located half way between 1 and 2 on the clock face. 
 
 All images in the dataset are 224 X 224 X 3 jpg format
+
+***
+
+# Problem Statement
+
+The ability to read and tell time using analog clocks is a fundamental skill that most individuals acquire during childhood. However, some individuals may struggle with this skill due to various reasons, such as learning disabilities or lack of practice. Therefore, there is a need to develop a CNN-based model that can accurately and efficiently tell the time using analog clocks.
+
+The model should be able to take images of analog clocks as input and output the corresponding time in a digital format. This can have several potential applications, such as assisting individuals with visual impairments, improving educational tools for teaching time, and enhancing the accuracy of timekeeping in various industries. Additionally, the model can be trained on various types of analog clocks, including those with different designs, sizes, and hands' shapes, to ensure its effectiveness in real-world scenarios.
